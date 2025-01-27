@@ -1,5 +1,3 @@
 {
-    "files.associations": {
-        "main.h": "c"
-    }
+    "liveServer.settings.port": 5501
 }

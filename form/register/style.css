@@ -1,0 +1,140 @@
+:root {
+    --input-coior: #E8EFF7;
+    --color: #B3B3B3;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to bottom, rgba(5, 5, 5, 0.6) 0%, rgba(5, 5, 5, 0.6) 100%), url("./imgs/05.png");
+    background-position: cover;
+    color : black;
+    font-family: "Poppins", sans-serif;
+}
+
+main  {
+    width: 100%;
+    display: flex;
+}
+.quote-form {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.quote-form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.quote-form h2 {
+
+    font-size: 3.5rem;
+    width: 50%;
+    text-align: left;
+}
+.quote-form img {
+    width: 50px;
+    height: 50px;
+    border-radius: 2rem;;
+}
+.quote-form > div > div {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.quote-form > div > div  p {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+main > div {
+    height: 100vh;
+    width: 50%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+div > p {
+    padding: 1.5rem;
+}
+.login-form {
+    color: black;
+}
+.login-form > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+input {
+    width: 280px;
+    height: 2.5rem;
+    background-color: var(--input-coior);
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+form a  {
+    display: block;
+}
+.login-form button {
+    width: 280px;
+    height: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, rgba(3,133,195,1) 0%, rgba(0,255,196,1) 100%);
+    box-shadow: 0px 31px 73px -28px rgba(3,133,195,1);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.login-form a {
+    color: #59C2C5;
+    text-decoration: none;
+}
+.login-form > div a {
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: var(--color);
+}
+.login-form h3{
+    padding-bottom: 1.4rem;
+    font-size: 1.5rem;
+}
+input::placeholder {
+    color: black;
+}
+
+form > div {
+    display: flex;
+    gap: 10px;
+}
+form > div > input {
+    width: 135px;
+
+
+}
+@media (max-width: 883px) {
+    .quote-form {
+        display: none;
+    }
+    .login-form {
+        width: 100%;
+    }
+}
