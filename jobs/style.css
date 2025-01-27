@@ -12,7 +12,7 @@
 }
 body {
     /* background: url(./imgs/05.png); */
-    background: linear-gradient(to bottom, rgba(5, 5, 5, 0.6) 0%, rgba(5, 5, 5, 0.6) 100%), url("./imgs/05.png");
+    background: linear-gradient(to bottom, rgba(5, 5, 5, 0.6) 0%, rgba(5, 5, 5, 0.6) 100%), url("../imgs/05.png");
     background-repeat: repeat;
     background-size: contain;
     color: white;
@@ -115,7 +115,8 @@ nav > div img {
     color: white;
 }
 .profile-nav img {
-    width: 40px;
+    width: 50px;
+    height: 50px;
 }
 .profile-nav p {
     font-size: 1.1rem;
@@ -142,3 +143,17 @@ nav > div img {
     border: dashed 2px var(--gray-color-dark);
 }
 /* -------------------------------------------- nav-end --------------------------- */
+
+.container {
+    background-color: var(--content-background-dark);
+    width: 98%;
+    margin: 0 auto;
+    height: calc(100vh - 7rem);
+    border-radius: 1.5rem;
+    padding : 2rem;
+    text-align: center;
+    color: var(--gray-color-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

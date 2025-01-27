@@ -113,7 +113,8 @@ nav > div img {
     gap: 1rem;
 }
 .profile-nav img {
-    width: 40px;
+    width: 50px;
+    height: 50px;
 }
 .profile-nav p {
     font-size: 1.1rem;
@@ -146,6 +147,9 @@ nav > div img {
 .container {
     width: 95%;
     margin: 0 auto;
+}
+#profile_id_headline {
+    margin-left: 0.5rem;
 }
 .profile-header > div{
     display: flex;
@@ -187,6 +191,7 @@ header {
 }
 .summary-header p {
     color: var(--dark-gray-color);
+    margin: 1rem;
 }
 .skills-exprience-header {
     display: flex;

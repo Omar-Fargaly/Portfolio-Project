@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="shortcut icon" href="../imgs/icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="../scroll.css">
     <link rel="stylesheet" href="../all.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div style="height: 6rem; width: 100%;"></div>
     <nav>
         <div class="head-search-nav">
-            <img src="../images.png" alt="">
+            <img src="../imgs/icon.svg" alt="">
             <input type="text" name="" id="" placeholder="Search!">
         </div>
         <div>
@@ -35,11 +38,9 @@
             </ul>
         </div>
         <div class="profile-nav">
-            <i class="fa-solid fa-message noti-nav"></i>
-            <i class="fa-solid fa-bell noti-nav"></i>
             <div></div>
-            <a href=".././profile/profile.html"><img src="../images.png" alt=""></a>
-            <a href=".././profile/profile.html"><p>Omar Ehab</p></a>
+            <a href=".././profile/profile.html"><img src="" alt="" id="nav_prof_img"></a>
+            <a href=".././profile/profile.html"><p id="nav_prof_p">Omar Ehab</p></a>
             <i class="fa-regular fa-moon dark-nav"></i>
         </div>
     </nav>
@@ -50,30 +51,62 @@
                 <button></button>
             </div>
             <div class="Connection-content">
-                <img src="../images.png" alt="">
+                <img src="../imgs/profile/Yehia.jpg" alt="">
                 <div>
-                    <h4>Abdelrahman Abdelrahman</h4>
-                    <p>2 Followers</p>
+                    <h4>Yehya Khaled</h4>
+                    <p>8 Connections</p>
                 </div>
                 <button><i class="fa-solid fa-heart"></i></button>
             </div>
             <div class="Connection-content">
-                <img src="../images.png" alt="">
+                <img src="../imgs/profile/Gabr.jpg" alt="">
                 <div>
-                    <h4>Ahmed Ali</h4>
-                    <p>15 Followers</p>
+                    <h4>Abdallah Gabr</h4>
+                    <p>8 Connections</p>
                 </div>
                 <button><i class="fa-solid fa-heart"></i></button>
             </div>
             <div class="Connection-content">
-                <img src="../images.png" alt="">
+                <img src="../imgs/profile/Turkey.jpg " alt="">
                 <div>
-                    <h4>Ahmed Ali</h4>
-                    <p>15 Followers</p>
+                    <h4>Ahmed Hassen</h4>
+                    <p>8 Connections</p>
                 </div>
                 <button><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="Connection-content">
+                <img src="../imgs/profile/Abdo.jpg" alt="">
+                <div>
+                    <h4>Abdo Mohamed</h4>
+                    <p>8 Connections</p>
+                </div>
+                <button><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="Connection-content">
+                <img src="../imgs/profile/George.jpg" alt="">
+                <div>
+                    <h4>Abdelatif Selem</h4>
+                    <p>8 Connections</p>
+                </div>
+                <button><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <!-- <div class="Connection-content">
+                <img src="../imgs/profile/3nan.jpg" alt="">
+                <div>
+                    <h4>Anan Mohamed</h4>
+                    <p>8 Connections</p>
+                </div>
+                <button><i class="fa-solid fa-heart"></i></button>
+            </div> -->
+            <div class="Connection-content">
+                <img src="../imgs/profile/Reda.jpg " alt="">
+                <div>
+                    <h4>Ahmed Reda</h4>
+                    <p>8 Connections</p>
+                </div>
+                <button><i class="fa-solid fa-heart"></i></button>
+            </div>
 
-            </div>
 
             <div class="ender-content">
                 <button>See All</button>
@@ -83,232 +116,29 @@
     <main>
         <div class="main-container">
             <div class="add-post">
-                <div class="add-post-status">
-                    <img src="../images.png" alt="">
-                    <img src="../images.png" alt="">
-                    <img src="../images.png" alt="">
-                    <img src="../images.png" alt="">
-                    <img src="../images.png" alt="">
+                <!-- <div class="add-post-status">
+                    <img src="../imgs/profile/3nan.jpg" alt="">
+                    <img src="../imgs/profile/George.jpg" alt="">
+                    <img src="../imgs/profile/Menna.jpg" alt="">
+                    <img src="../imgs/profile/George.jpg" alt="">
                     <button><i class="fa-regular fa-plus"></i></button>
                 </div>
-                <hr>
+                <hr> -->
                 <div class="add-post-post">
-                    <img src="../images.png" alt="">
+                    <img src="" alt="" id="profile_id_img">
                     <form action="" class="add-post-form">
-                        <input type="text" id="add-post-text" placeholder="What did you Expreience today">
+                        <input type="text" id="add-post-text" placeholder="What did you Expreience today" required>
                         <label class="add-post-file">
-                            <input type="file" id="add-post-file" name="Picture">
+                            <input type="file" id="add-post-file" name="Picture" required>
                             <i class="fa-solid fa-arrow-up-from-bracket"></i>
                         </label>
                         <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
                     </form>
                 </div>
             </div>
-
-            <div class="main-post">
-                <div class="img-post-div">
-                    <img src="../images.png" alt="">
-                </div>
-                <div class="main-post-data">
-                    <div id="share-post"><i class="fa-solid fa-share"></i></div>
-                    <div class="text-post-data">
-                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, quod nesciunt odio ad harum aliquid, vel maxime nam autem aut itaque eos dicta placeat officia? Nesciunt laboriosam fugiat repudiandae aliquam reprehenderit animi, repellendus ipsum. Ad?</p>
-                        <a href="/">Read More....</a>
-                    </div>
-                    <div class="post-footer">
-                        <div>
-                            <img src="../images.png" alt="">
-                            <div>
-
-                                <h4>Omar Ehab</h4>
-                                <p>13 Minutes Ago</p>
-                            </div>
-                        </div>
-                        <div class="like-comment-icons-post">
-                            <div>
-                                <i class="fa-solid fa-thumbs-up"></i>
-                                <p>20 Likes</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-comment"></i>
-                                <p>15 Comments</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="main-post">
-                <div class="img-post-div">
-                    <img src="../images.png" alt="">
-                </div>
-                <div class="main-post-data">
-                    <div id="share-post"><i class="fa-solid fa-share"></i></div>
-                    <div class="text-post-data">
-                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, quod nesciunt odio ad harum aliquid, vel maxime nam autem aut itaque eos dicta placeat officia? Nesciunt laboriosam fugiat repudiandae aliquam reprehenderit animi, repellendus ipsum. Ad?</p>
-                        <a href="/">Read More....</a>
-                    </div>
-                    <div class="post-footer">
-                        <div>
-                            <img src="../images.png" alt="">
-                            <div>
-
-                                <h4>Omar Ehab</h4>
-                                <p>13 Minutes Ago</p>
-                            </div>
-                        </div>
-                        <div class="like-comment-icons-post">
-                            <div>
-                                <i class="fa-solid fa-thumbs-up"></i>
-                                <p>20 Likes</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-comment"></i>
-                                <p>15 Comments</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="main-post">
-                <div class="img-post-div">
-                    <img src="../images.png" alt="">
-                </div>
-                <div class="main-post-data">
-                    <div id="share-post"><i class="fa-solid fa-share"></i></div>
-                    <div class="text-post-data">
-                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, quod nesciunt odio ad harum aliquid, vel maxime nam autem aut itaque eos dicta placeat officia? Nesciunt laboriosam fugiat repudiandae aliquam reprehenderit animi, repellendus ipsum. Ad?</p>
-                        <a href="/">Read More....</a>
-                    </div>
-                    <div class="post-footer">
-                        <div>
-                            <img src="../images.png" alt="">
-                            <div>
-
-                                <h4>Omar Ehab</h4>
-                                <p>13 Minutes Ago</p>
-                            </div>
-                        </div>
-                        <div class="like-comment-icons-post">
-                            <div>
-                                <i class="fa-solid fa-thumbs-up"></i>
-                                <p>20 Likes</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-comment"></i>
-                                <p>15 Comments</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="main-post">
-                <div class="img-post-div">
-                    <img src="../images.png" alt="">
-                </div>
-                <div class="main-post-data">
-                    <div id="share-post"><i class="fa-solid fa-share"></i></div>
-                    <div class="text-post-data">
-                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, quod nesciunt odio ad harum aliquid, vel maxime nam autem aut itaque eos dicta placeat officia? Nesciunt laboriosam fugiat repudiandae aliquam reprehenderit animi, repellendus ipsum. Ad?</p>
-                        <a href="/">Read More....</a>
-                    </div>
-                    <div class="post-footer">
-                        <div>
-                            <img src="../images.png" alt="">
-                            <div>
-
-                                <h4>Omar Ehab</h4>
-                                <p>13 Minutes Ago</p>
-                            </div>
-                        </div>
-                        <div class="like-comment-icons-post">
-                            <div>
-                                <i class="fa-solid fa-thumbs-up"></i>
-                                <p>20 Likes</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-comment"></i>
-                                <p>15 Comments</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="main-post">
-                <div class="img-post-div">
-                    <img src="../images.png" alt="">
-                </div>
-                <div class="main-post-data">
-                    <div id="share-post"><i class="fa-solid fa-share"></i></div>
-                    <div class="text-post-data">
-                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, quod nesciunt odio ad harum aliquid, vel maxime nam autem aut itaque eos dicta placeat officia? Nesciunt laboriosam fugiat repudiandae aliquam reprehenderit animi, repellendus ipsum. Ad?</p>
-                        <a href="/">Read More....</a>
-                    </div>
-                    <div class="post-footer">
-                        <div>
-                            <img src="../images.png" alt="">
-                            <div>
-
-                                <h4>Omar Ehab</h4>
-                                <p>13 Minutes Ago</p>
-                            </div>
-                        </div>
-                        <div class="like-comment-icons-post">
-                            <div>
-                                <i class="fa-solid fa-thumbs-up"></i>
-                                <p>20 Likes</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-comment"></i>
-                                <p>15 Comments</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="main-post">
-                <div class="img-post-div">
-                    <img src="../images.png" alt="">
-                </div>
-                <div class="main-post-data">
-                    <div id="share-post"><i class="fa-solid fa-share"></i></div>
-                    <div class="text-post-data">
-                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, quod nesciunt odio ad harum aliquid, vel maxime nam autem aut itaque eos dicta placeat officia? Nesciunt laboriosam fugiat repudiandae aliquam reprehenderit animi, repellendus ipsum. Ad?</p>
-                        <a href="/">Read More....</a>
-                    </div>
-                    <div class="post-footer">
-                        <div>
-                            <img src="../images.png" alt="">
-                            <div>
-
-                                <h4>Omar Ehab</h4>
-                                <p>13 Minutes Ago</p>
-                            </div>
-                        </div>
-                        <div class="like-comment-icons-post">
-                            <div>
-                                <i class="fa-solid fa-thumbs-up"></i>
-                                <p>20 Likes</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-comment"></i>
-                                <p>15 Comments</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </main>
+    <script src="script.js"></script>
+    <script src="../nav.js"></script>
 </body>
 </html>

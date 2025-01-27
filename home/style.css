@@ -101,9 +101,11 @@ i {
 nav a > p{
     display: inline;
 }
+#nav_prof_img{
+    border-radius: 2rem;
+}
 nav > div img {
     width: 50px;
-    border-radius: 2rem;
 }
 .profile-nav {
     display: flex;
@@ -115,7 +117,8 @@ nav > div img {
     color: white;
 }
 .profile-nav img {
-    width: 40px;
+    width: 50px;
+    height: 50px;
 }
 .profile-nav p {
     font-size: 1.1rem;
@@ -302,9 +305,7 @@ main {
     justify-content: space-between;
 }
 .img-post-div{
-
     width: 60%;
-
 }
 .main-post > div > img {
     display: block;
@@ -362,11 +363,11 @@ main {
     border-radius: 2rem;
 }
 .post-footer > div > div > h4 {
-    font-size: 1rem;
+    font-size: 0.85rem;
 }
 .post-footer > div > div > h4 + p {
     color: var(--gray-color-dark);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 .like-comment-icons-post i {
     padding: 0.5rem;
@@ -376,7 +377,7 @@ main {
 }
 .like-comment-icons-post p {
     color: var(--gray-color-dark);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 .like-comment-icons-post div{
     display: flex;
@@ -384,164 +385,3 @@ main {
     align-items: center;
     gap: 0.4rem;
 }
-
-
-@media(max-width: 1832px) {
-    nav > div > ul{
-        gap: 2rem;
-    }
-.head-search-nav input{
-    width: 450px;
-}
-.main-container {
-    width: 70%;
-}
-.main-post > div > img {
-    width: 400px;
-}
-.main-post-data {
-    gap: 4.2rem;
-}
-}
-@media (max-width: 1700px) {
-    .main-post > div > img {
-        width: 350px;
-    }
-
-}
-@media (max-width: 1620px) {
-    .main-post > div > img {
-        width: 350px;
-    }
-    .main-container {
-        width: 75%;
-    }
-}
-@media (max-width: 1531px) {
-    .main-post > div > img {
-        width: 350px;
-    }
-    .main-container {
-        width: 80%;
-    }
-}
-@media (max-width: 1481px) {
-    .main-post > div > img {
-        width: 300px;
-    }
-    .main-container {
-        width: 85%;
-    }
-    .main-post-data {
-        gap: 3rem;
-    }
-
-}
-@media (max-width: 1342px) {
-    .main-post > div > img {
-        width: 300px;
-    }
-    .main-container {
-        width: 90%;
-    }
-    .main-post-data {
-        gap: 4.2rem;
-    }
-}
-@media (max-width: 1298px) {
-    .main-post > div > img {
-        width: 300px;
-    }
-    .main-container {
-        width: 100%;
-    }
-    .head-search-nav input{
-        width: 300px;
-    }
-    .main-post-data {
-        gap: 4.2rem;
-    }
- }
-
-@media (max-width: 1245px) {
-    aside {
-        display: none;
-    }
-    main {
-        width: 100%;
-    }
-    .main-post > div > img {
-        width: 500px;
-    }
- }
- @media (max-width: 1048px) {
-    .main-post > div > img {
-        width: 400px;
-    }
- }
-
- @media (max-width: 951px) {
-
-    .main-post > div > img {
-        width: 300px;
-    }
-    .main-post-data {
-        gap: 2.5rem;
-    }
-  }
-
-  @media (max-width: 852px) {
-    html {
-        font-size: 14px;
-    }
-
-    .main-post-data {
-        gap: 2rem;
-    }
-    .text-post-data p {
-        width: 300px;
-    }
-  }
-  @media (max-width: 785px) {
-    html {
-        font-size: 12px;
-    }
-    .main-post > div > img {
-        width: 250px;
-    }
-    .main-post-data {
-        gap: 1rem;
-    }
-    .text-post-data p {
-        width: 300px;
-    }
-  }
-  @media (max-width: 683px) {
-    html {
-        font-size: 8px;
-    }
-    .img-post-div {
-        width: 40%;
-    }
-    .main-post > div > img {
-        width: 200px;
-    }
-    .main-post-data {
-        gap: 1rem;
-    }
-    .text-post-data p {
-        width: 100px;
-    }
-    .add-post-status img {
-        width: 65px;
-        height: 65px;
-    }
-    .add-post-status button {
-        width: 65px;
-        height: 65px;
-    }
-    .add-post-status .last-img ~ img {
-        display: none;
-    }
-  }
-

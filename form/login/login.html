@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="shortcut icon" href="../../imgs/icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,24 +19,25 @@
                     Innovation distinguishes between a leader and a follower.
                 </h2>
                 <div>
-                    <img src="../../images.png" alt="">
+                    <img src="../../imgs/joobs.jpg" alt="">
                     <p>Steve Jobs</p>
                 </div>
             </div>
         </div>
         <div class="login-form">
-            <p>Don't have an account <a href="">Sign in</a></p>
+            <p>Don't have an account <a href="../register/register.html">Sign Up</a></p>
             <div>
                 <h3>Let's Get Started</h3>
-                <form action="">
-                    <input type="Email" placeholder="Email Adrdess">
-                    <input type="password" placeholder="Password">
-                    <a href="">Forget Password?</a>
-                    <button>Sign in</button>
-                </form>
+                <form id="loginForm">
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <a href="#">Forgot Password?</a>
+                    <button type="submit">Sign in</button>
+                </form>                
             </div>
             <p>All rights reserved</p>
         </div>
     </main>
+    <script src="./login.js"></script>
 </body>
 </html>

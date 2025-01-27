@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(to bottom, rgba(5, 5, 5, 0.6) 0%, rgba(5, 5, 5, 0.6) 100%), url("./imgs/05.png");
+    background: linear-gradient(to bottom, rgba(5, 5, 5, 0.6) 0%, rgba(5, 5, 5, 0.6) 100%), url("../../imgs/05.png");
     background-position: cover;
     color : black;
     font-family: "Poppins", sans-serif;

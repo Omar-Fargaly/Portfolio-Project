@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
+    <link rel="shortcut icon" href="../../imgs/icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,20 +14,18 @@
 <body>
     <main>
         <div class="login-form">
-            <p>Don't have an account <a href="">Sign in</a></p>
+            <p>Already have an account <a href="../login/login.html">Sign in</a></p>
             <div>
                 <h3>Let's Get Started</h3>
-                <form action="">
+                <form id="registerform">
                     <div>
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
+                        <input type="text" id="fname" placeholder="First Name" required>
+                        <input type="text" id="lname" placeholder="Last Name" required>
                     </div>
-                    <input type="email" placeholder="Email Adrdess">
-                    <input type="phone" placeholder="Phone Number">
-                    <input type="password" placeholder="Password">
-                    <input type="password" placeholder="Password">
+                    <input type="email" id="email" placeholder="Email Adrdess" required>
+                    <input type="password" id="password" placeholder="Password" required>
                     <a href="">Forget Password?</a>
-                    <button>Sign in</button>
+                    <button type="submit">Sign Up</button>
                 </form>
             </div>
             <p>All rights reserved</p>
@@ -37,13 +36,12 @@
                     Innovation distinguishes between a leader and a follower.
                 </h2>
                 <div>
-                    <img src="../../images.png" alt="">
+                    <img src="../../imgs/joobs.jpg" alt="">
                     <p>Steve Jobs</p>
                 </div>
             </div>
         </div>
-
     </main>
-
+    <script src="./register.js"></script>
 </body>
 </html>
